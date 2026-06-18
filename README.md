@@ -24,8 +24,9 @@ Experimenting in software tooling, building analysis, CI/CD workflows, and quali
 
 ```bash
 python build_log_analyzer.py sample_logs/failed_build.log
+```
 
-## To run the test
+## To run the test
 
 ```bash
 python3 -m pytest
