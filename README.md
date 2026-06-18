@@ -1,6 +1,6 @@
 # Build Log Analyzer
 
-A command-line tool for extracting actionable information from software build logs. Detects compiler errors, warnings, and failed tests. Groups them by category. Prints a structured summary that can be used by developers or CI pipelines.
+A small Python command-line tool for analysing build logs from software projects. Сan be used in CI pipelines to fail the build when compiler errors or failed tests are detected.
 
 Detects:
 - compiler errors
@@ -24,9 +24,8 @@ Experimenting in software tooling, building analysis, CI/CD workflows, and quali
 
 ```bash
 python build_log_analyzer.py sample_logs/failed_build.log
-```
-## To run the test
+
+## To run the test
 
 ```bash
 python3 -m pytest
-```

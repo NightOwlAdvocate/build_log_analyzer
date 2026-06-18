@@ -1,0 +1,5 @@
+[INFO] Building project...
+src/main.cpp:42:10: warning: unused variable 'temp'
+src/sensor.cpp:88:5: error: undefined reference to 'readSensor'
+tests/test_controller.cpp:21: FAILED: expected 42 but got 0
+[INFO] Build finished with errors
