@@ -1,5 +1,16 @@
-[INFO] Building project...
-src/main.cpp:42:10: warning: unused variable 'temp'
+[INFO] Starting build process...
+[INFO] Checking compiler version...
+[INFO] Compiler: g++ 13.2.0
+[INFO] Loading project configuration...
+[INFO] Creating build directory...
+[INFO] Compiling src/main.cpp
+[INFO] Compiling src/sensor.cpp
 src/sensor.cpp:88:5: error: undefined reference to 'readSensor'
+[INFO] Compiling src/controller.cpp
+src/controller.cpp:42:10: warning: unused variable 'temp'
+[INFO] Linking target build/app
+[ERROR] Linking failed.
+[INFO] Running unit tests...
 tests/test_controller.cpp:21: FAILED: expected 42 but got 0
-[INFO] Build finished with errors
+tests/test_sensor.cpp passed
+[INFO] Build finished with errors.
